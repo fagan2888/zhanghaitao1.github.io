@@ -94,14 +94,14 @@ def get_all_rss(chunksize=200):
                 lastBuildDate = datetime.datetime.now(),
                 items = items)
 
-            with open(f'{acronym}{i}.xml','w') as f:
+            with open(f'{acronym}_{i}.xml','w') as f:
                 f.write(feed.rss())
 
 
 def get_opml():
     fns=os.listdir(os.getcwd())
     titles=[fn[:-4] for fn in fns if fn.endswith('.xml')]
-
+    titles=sorted(titles,key=lambda x:(x.split('_')[0],int(x.split('_')[-1])))
     # titles = df['title'].unique()
     ss=[]
     for title in titles:
@@ -140,7 +140,7 @@ def print_all_rss():
         print(xmlurl)
 
 if __name__ == '__main__':
-    get_all_rss()
+    # get_all_rss()
     get_opml()
 
     # print_all_rss()

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef40b541-fa00-4606-a009-c0918e5b85c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/opml.opml" beforeDir="false" afterPath="$PROJECT_DIR$/opml.opml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/None0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rss_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/rss_generator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/zhanghaitao1_github_io$rss_generator.coverage" NAME="rss_generator Coverage Results" MODIFIED="1575815226201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zhanghaitao1_github_io$rss_generator.coverage" NAME="rss_generator Coverage Results" MODIFIED="1575815614095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="rss_generator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rss_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+            <state relative-caret-position="468">
+              <caret line="143" column="14" lean-forward="true" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="14" />
               <folding>
                 <element signature="e#140#149#0" expanded="true" />
               </folding>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575814331802</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update rss feeds">
+      <created>1575815268420</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575815268420</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -181,18 +188,18 @@
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49262735" weight="0.39044943" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50268096" side_tool="true" weight="0.55133617" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.59129214" visible="true" weight="0.19101124" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.59129214" weight="0.25702247" />
       <window_info anchor="right" x="31" y="248" width="1474" height="337" id="Python Console" order="8" sideWeight="0.24719101" weight="0.35100672" />
-      <window_info active="true" anchor="right" id="Run" order="6" sideWeight="0.5885417" side_tool="true" visible="true" weight="0.26174498" />
+      <window_info anchor="right" id="Run" order="6" sideWeight="0.46488765" side_tool="true" weight="0.5026846" />
       <window_info anchor="right" id="Terminal" order="7" sideWeight="0.33286518" side_tool="true" weight="0.49061662" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6427567" weight="0.21140939" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database" order="6" sideWeight="0.50268096" side_tool="true" weight="0.5519663" />
       <window_info anchor="bottom" id="Find" order="8" sideWeight="0.49731904" weight="0.505618" />
-      <window_info anchor="right" x="593" y="178" width="869" height="592" id="SciView" order="5" sideWeight="0.5898876" side_tool="true" weight="0.4919571" />
+      <window_info active="true" anchor="right" x="593" y="178" width="869" height="592" id="SciView" order="5" sideWeight="0.33988765" side_tool="true" visible="true" weight="0.3" />
       <window_info anchor="right" id="Structure" order="9" sideWeight="0.58848315" side_tool="true" weight="0.35924932" />
       <window_info id="Favorites" order="1" sideWeight="0.35724333" side_tool="true" weight="0.1494638" />
-      <window_info anchor="right" id="Debug" order="4" sideWeight="0.41145834" visible="true" weight="0.26174498" />
+      <window_info anchor="right" id="Debug" order="4" sideWeight="0.6601124" weight="0.5026846" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="2" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -214,14 +221,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rss_generator.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/rss_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+        <state relative-caret-position="468">
+          <caret line="143" column="14" lean-forward="true" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="14" />
           <folding>
             <element signature="e#140#149#0" expanded="true" />
           </folding>
