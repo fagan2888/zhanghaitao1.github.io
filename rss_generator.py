@@ -21,13 +21,49 @@ def get_title(x):
     else:
         return x
 
+def get_acronym(x):
+    acronym=None
+    if 'Journal of Banking & Finance' in x:
+        acronym='JBF'
+    elif 'Management Science' in x:
+        acronym='MS'
+    elif 'Journal of Financial Economics' in x:
+        acronym='JFE'
+    elif 'Journal of Finance' in x:
+        acronym='JF'
+    elif 'Journal of Financial and Quantitative Analysis' in x:
+        acronym='JFQA'
+    elif 'Journal of Portfolio Management' in x:
+        acronym='JPM'
+    elif 'Review of Finance' in x:
+        acronym='RF'
+    elif 'Journal of Economic Literature' in x:
+        acronym='JEL'
+    elif 'Review of Financial Studies' in x:
+        acronym='RFS'
+    elif 'Journal of Economic Literature' in x:
+        acronym='JEL'
+    elif 'Journal of Economic Perspectives' in x:
+        acronym='JEP'
+    elif 'Annual Review of Financial Economics' in x:
+        acronym='ARFE'
+    elif 'Annual Review of Economics' in x:
+        acronym='ARE'
+    else:
+        raise ValueError
+    return acronym
+
+
+
+
 def get_all_rss(chunksize=200):
     df = pd.read_csv('2010-2019oct.csv') #trick: this csv is imported from zotero
     df = df.sort_values('Publication Year', ascending=False)
     df['title'] = df['Publication Title'].map(get_title)
+    df['acronym']=df['Publication Title'].map(get_acronym)
 
-    for i,title in enumerate(df['title'].unique()):
-        sub=df[df['title']==title]
+    for i,acronym in enumerate(df['acronym'].unique()):
+        sub=df[df['acronym']==acronym]
 
         for i in range(sub.shape[0]//chunksize+1):
             start=i*chunksize
@@ -51,14 +87,14 @@ def get_all_rss(chunksize=200):
                 items.append(item)
 
             feed = Feed(
-                title = f'{title}{i}',
+                title = f'{acronym}{i}',
                 link = "http://www.example.com/rss",
                 description = "This is the feed for items from my zotero.",
                 language = "en-US",
                 lastBuildDate = datetime.datetime.now(),
                 items = items)
 
-            with open(f'{title}{i}.xml','w') as f:
+            with open(f'{acronym}{i}.xml','w') as f:
                 f.write(feed.rss())
 
 
@@ -104,7 +140,7 @@ def print_all_rss():
         print(xmlurl)
 
 if __name__ == '__main__':
-    # get_all_rss()
+    get_all_rss()
     get_opml()
 
     # print_all_rss()

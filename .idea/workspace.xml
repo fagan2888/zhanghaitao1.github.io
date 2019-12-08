@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef40b541-fa00-4606-a009-c0918e5b85c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Annual Review of Economics.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Annual Review of Financial Economics.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal of Banking &amp; Finance.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal of Economic Literature.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal of Economic Perspectives.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal of Finance.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal of Financial Economics.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal of Financial and Quantitative Analysis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Journal of Portfolio Management.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Management Science.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review of Finance.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Review of Financial Studies.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/opml.opml" beforeDir="false" afterPath="$PROJECT_DIR$/opml.opml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rss_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/rss_generator.py" afterDir="false" />
     </list>
@@ -25,15 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/zhanghaitao1_github_io$rss_generator.coverage" NAME="rss_generator Coverage Results" MODIFIED="1575814161057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zhanghaitao1_github_io$rss_generator.coverage" NAME="rss_generator Coverage Results" MODIFIED="1575815226201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="rss_generator.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rss_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="357">
+              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
               <folding>
                 <element signature="e#140#149#0" expanded="true" />
               </folding>
@@ -176,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575774152359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update rss feeds">
+      <created>1575814331802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575814331802</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -186,18 +181,18 @@
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49262735" weight="0.39044943" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50268096" side_tool="true" weight="0.55133617" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.59129214" weight="0.372191" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.59129214" visible="true" weight="0.19101124" />
       <window_info anchor="right" x="31" y="248" width="1474" height="337" id="Python Console" order="8" sideWeight="0.24719101" weight="0.35100672" />
-      <window_info active="true" anchor="right" id="Run" order="6" sideWeight="0.58848315" side_tool="true" visible="true" weight="0.40939596" />
+      <window_info active="true" anchor="right" id="Run" order="6" sideWeight="0.5885417" side_tool="true" visible="true" weight="0.26174498" />
       <window_info anchor="right" id="Terminal" order="7" sideWeight="0.33286518" side_tool="true" weight="0.49061662" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6427567" weight="0.118120804" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6427567" weight="0.21140939" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database" order="6" sideWeight="0.50268096" side_tool="true" weight="0.5519663" />
       <window_info anchor="bottom" id="Find" order="8" sideWeight="0.49731904" weight="0.505618" />
       <window_info anchor="right" x="593" y="178" width="869" height="592" id="SciView" order="5" sideWeight="0.5898876" side_tool="true" weight="0.4919571" />
       <window_info anchor="right" id="Structure" order="9" sideWeight="0.58848315" side_tool="true" weight="0.35924932" />
       <window_info id="Favorites" order="1" sideWeight="0.35724333" side_tool="true" weight="0.1494638" />
-      <window_info anchor="right" id="Debug" order="4" sideWeight="0.41151685" visible="true" weight="0.40939596" />
+      <window_info anchor="right" id="Debug" order="4" sideWeight="0.41145834" visible="true" weight="0.26174498" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="2" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -225,8 +220,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/rss_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="357">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
           <folding>
             <element signature="e#140#149#0" expanded="true" />
           </folding>
